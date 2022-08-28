@@ -30,7 +30,6 @@ public class Domelement {
                 "border-right: "+borderRight+"px; " +
                 "border-bottom: "+borderBottom+"px; " +
                 "border-left: "+borderLeft+"px;\"" : "";
-//        System.out.println("\n>"+temp_style+" " +style);
 
         String temp_content = Arrays.stream(content.split("\n"))
                 .collect(Collectors.joining("\n\t"));
